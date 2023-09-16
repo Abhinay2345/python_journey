@@ -1,0 +1,8 @@
+num=input("enter the number")
+sum=0
+l=list(num)
+l.reverse()
+print(l)
+for i in range(len(l)):
+  sum = sum+int(l[i])*2**i
+print(sum)
