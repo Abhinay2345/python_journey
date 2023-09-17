@@ -1,0 +1,10 @@
+num=int(input("enter a binary number"))
+x=num
+octal_numbers=[0,1,10,11,100,101,110,111]
+output=[]
+while x!=0:
+  remainder=x%1000
+  output.append(octal_numbers.index(remainder))
+  x=x//1000
+output.reverse()
+print(output)
