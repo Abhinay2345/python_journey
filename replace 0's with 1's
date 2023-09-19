@@ -1,0 +1,10 @@
+num=int(input("enter the number"))
+s=str(num)
+g=""
+for i in s:
+  if (i =='0'):
+    g=g+'1'
+  else:
+    g=g+i
+t=int(g)
+print(g)
