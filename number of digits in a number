@@ -1,0 +1,8 @@
+num=int(input("enter a number"))
+arr=[]
+while num>0:
+  rem=num%10
+  arr.append(rem)
+  num=num//10
+
+print(len(arr))
