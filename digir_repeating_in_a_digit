@@ -1,0 +1,9 @@
+Number=int(input("enter a number"))
+digit=int(input("enter a digit"))
+count=0
+while Number>0:
+  rem=Number%10
+  if rem==digit:
+    count=count+1
+    Number=Number//10
+    print(count)
