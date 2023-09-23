@@ -1,0 +1,11 @@
+a=[]
+size=int(input("enter the size of the array"))
+for i in range(size):
+  val=int(input("enter the values"))
+  a.append(val)
+print(a)
+
+min_value=min(a)
+a.remove(min_value)
+second_minval=min(a)
+print(second_minval)
