@@ -1,0 +1,6 @@
+import array as myarray
+arr=myarray.array('i',[1,2,3,4])
+sum=0
+for i in range(len(arr)):
+  sum=sum+arr[i]
+print(sum)
