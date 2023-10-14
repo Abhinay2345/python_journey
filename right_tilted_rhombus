@@ -1,0 +1,6 @@
+n=int(input("enter the number"))
+k=4
+for i in range(n):
+  print(" "*k,"*"*n)
+  k=k-1
+print()
